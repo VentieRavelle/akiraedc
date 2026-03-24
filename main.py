@@ -61,7 +61,7 @@ bot = Akirae()
 @bot.event
 async def on_ready():
     await bot.change_presence(
-        activity=discord.Game(name="!help | Akirae Bot")
+        activity=discord.Game(name="!h & !info | Akirae Bot")
     )
     print(f'🚀 {bot.user.name} успешно запущен!')
 
