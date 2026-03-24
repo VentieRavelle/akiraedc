@@ -50,7 +50,7 @@ class Info(commands.Cog):
         self.bot = bot
         self.start_time = time.time()
 
-@commands.command(name='info_help', aliases=['info', 'h'])
+    @commands.command(name='info_help', aliases=['info', 'h'])
     async def help_command(self, ctx):
         """Интеллектуальное меню помощи с категориями"""
         embed = discord.Embed(
@@ -77,7 +77,7 @@ class Info(commands.Cog):
         else:
             await ctx.send(embed=embed, view=view)
 
-    @commands.command(name='stats', aliases=['status', 'info'])
+    @commands.command(name='stats', aliases=['status', 'st'])
     async def stats(self, ctx):
         """Детальный мониторинг ресурсов системы"""
         uptime = str(datetime.timedelta(seconds=int(round(time.time() - self.start_time))))
