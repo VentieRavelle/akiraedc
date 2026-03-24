@@ -1,4 +1,5 @@
-discord.py
-flask
-supabase
+discord.py>=2.3.0
+supabase>=2.0.0
 python-dotenv
+flask
+postgrest

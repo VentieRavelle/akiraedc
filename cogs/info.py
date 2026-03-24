@@ -50,7 +50,7 @@ class Info(commands.Cog):
         self.bot = bot
         self.start_time = time.time()
 
-    @commands.command(name='help')
+@commands.command(name='info_help', aliases=['info', 'h'])
     async def help_command(self, ctx):
         """Интеллектуальное меню помощи с категориями"""
         embed = discord.Embed(
