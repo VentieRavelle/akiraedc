@@ -61,7 +61,7 @@ python main.py
 ├── utils/               # Shared helper functions
 ├── main.py              # Application entry point & Cog loader
 ├── db.py                # Supabase client & DB connection
-├── keep_alive.py        # Web-server for 24/7 uptime
+├── keep_alive.py        # Webserver for 24/7 uptime
 └── requirements.txt     # Dependency manifest
 ```
 
