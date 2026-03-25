@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 2. Environment Setup
 Create a `.env` file in the root folder:
 ```env
-DISCORD_TOKEN=your_token_here
+TOKEN=your_token_here
 SUPABASE_URL=your_project_url
 SUPABASE_KEY=your_service_role_key
 ```
