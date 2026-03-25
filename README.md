@@ -33,7 +33,7 @@
 
 ### 1. Clone & Install
 ```bash
-git clone [https://github.com/VentieRavelle/akiraedc.git](https://github.com/VentieRavelle/akiraedc.git)
+git clone https://github.com/VentieRavelle/akiraedc.git
 cd akiraedc
 pip install -r requirements.txt
 ```
